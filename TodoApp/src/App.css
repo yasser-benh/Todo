@@ -1,0 +1,115 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  display: flex;
+  align-items: center;
+  margin: 7rem;
+}
+header img{
+  width: 10rem;
+}
+header h1 {
+  font-size: 5rem;
+  padding: 3rem;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -3rem;
+}
+.todo-count{
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(50, 187, 12);
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 1px rgb(50, 187, 12);
+  width: 30rem;
+  height: 15rem;
+}
+.titles{
+  font-size: 3rem;
+  margin: 1rem;
+  text-align: center;
+}
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(104, 186, 15);
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin-left: 4rem;
+  font-size: 3rem;
+}
+.add-todo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 10rem 2rem 13rem;
+}
+input{
+  width: 20rem;
+  height: 1rem;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(5, 75, 33);
+  outline: none;
+  font-size: 1.1rem;
+  color: white;
+  
+}
+::placeholder{
+  letter-spacing: 1px;
+  color: rgb(211, 207, 207);
+}
+
+.add img{
+  width:3rem ;
+  margin-left: 1rem;
+}
+.add{
+  background-color: transparent;
+  border: none;
+}
+.todo-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li{
+  background-color: rgb(16, 155, 118);
+  font-size: 2rem;
+  border: 1px solid black;
+  padding: 20px;
+  width: 25rem;
+  height: 2rem;
+  border-radius: 10px;
+  overflow-wrap: break-word;
+  height: auto;
+  list-style-type:none;
+  display: flex;
+  align-items: center;
+  
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 1.2rem;
+  
+
+}
+
+.check{
+  background-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin-right: 10px;
+}
